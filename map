@@ -12,3 +12,4 @@ map.each{
     map2.items.add(item)
 }
 println('valor' + map2)
+// Toma los valores del Map 1 y los envia a un Map2
