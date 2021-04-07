@@ -1,0 +1,14 @@
+def map = [[name:"Jerry", age: 42, city: "New York"],
+            [name:"Jack", age: 45, city: "London"]]
+println(map)
+
+def map2 = [:]
+map2.items = []
+map.each{
+	def item = [:]
+	item.name = it.name
+	item.age = it.age
+	item.city = it.city
+    map2.items.add(item)
+}
+println('valor' + map2)
